@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form oluşturma</title>
+</head>
+<body>
+    <form name="email" enctype="text/plain"
+     action="mailto:mail@sunucu.com? subject="Siteden Email">
+    <table>
+        <tr>
+            <td>ad soyad</td>
+            <td>:<input type="text" name="ad" required="required" autofocus="autofocus"></td>
+        </tr>
+        <tr><td>Email</td>
+        <td>:<input type="email" name="email" required="required"></td>
+        </tr>
+        <tr>
+            <td>İleti</td>
+            <td>
+                : <textarea name="ileti" cols="50" rows="5" required="required"></textarea> 
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Gönder"></td>
+            <td><input type="reset" value="İptal"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
